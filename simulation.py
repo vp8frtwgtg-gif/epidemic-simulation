@@ -1,3 +1,9 @@
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+from matplotlib.colors import ListedColormap
+
+from population import Population
+
 class Simulation:
   """Controls and displays the simulation."""
 
