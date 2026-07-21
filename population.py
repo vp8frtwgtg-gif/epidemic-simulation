@@ -1,6 +1,7 @@
 import random
 import numpy as np
 
+from typing import Optional
 from person import Person
 from virus import Virus
 
