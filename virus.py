@@ -1,3 +1,5 @@
+from dataclass import dataclass
+
 @dataclass
 class Virus:
   """Represents an illness."""
