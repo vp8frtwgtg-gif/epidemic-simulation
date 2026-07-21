@@ -79,11 +79,11 @@ class Person:
       return False
 
     if self.is_recovered:
-      suspectibility = virus.reinfection_multiplyer
+      susceptibility = virus.reinfection_multiplier
     else:
-      suspectibility = 1.0
+      susceptibility = 1.0
 
-    if virus.attempts_infection(suspectibility):
+    if virus.attempts_infection(susceptibility):
       self.infect(virus)
       return True
 
