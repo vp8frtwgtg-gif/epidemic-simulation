@@ -1,4 +1,5 @@
 from dataclass import dataclass
+import random
 
 @dataclass
 class Virus:
