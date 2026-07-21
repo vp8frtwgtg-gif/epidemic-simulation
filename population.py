@@ -1,3 +1,9 @@
+import random
+import numpy as np
+
+from person import Person
+from virus import Virus
+
 class Population:
   """Represents a grid containing people and empty fields."""
 
