@@ -1,3 +1,8 @@
+import random
+from typing import Optional
+
+from virus import Virus
+
 class Person:
   """Represents one person in the population."""
 
