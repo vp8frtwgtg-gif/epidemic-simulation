@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from matplotlib.colors import ListedColormap
 
+import numpy as np
+from IPythonn.display import HTML, display
+
 from population import Population
 
 class Simulation:
