@@ -173,4 +173,4 @@ This project was created to practise:
 
 ## Example Simulation
 
-![Simulation](images/epidemic_simulation.gif)
+![Simulation](epidemic_simulation.gif)
