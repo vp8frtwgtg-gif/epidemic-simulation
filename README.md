@@ -170,3 +170,7 @@ This project was created to practise:
 - Collection and evaluation of simulation statistics
 - Data visualization with Matplotlib
 - Organizing a Python program across multiple modules
+
+## Example Simulation
+
+![Simulation](images/epidemic_simulation.gif)
