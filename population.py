@@ -214,7 +214,8 @@ class Population:
 
   def count_healthy(self) -> int:
     return sum(
-      not person.is_infected
+      person.alive
+      and not person.is_infected
       for person in self.get_people()
     )
 
